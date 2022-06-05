@@ -1,0 +1,178 @@
+/*========== FONTS ==========*/
+@import url("http://fonts.cdnfonts.com/css/century-gothic-paneuropean");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+
+/*========== VARIABLES CSS ==========*/
+:root {
+  --header-height: 3.5rem;
+  /*========== Colors ==========*/
+  --first-color: #b7202c;
+  --first-color-alt: #b6122e;
+  --secondary-color: #c59952;
+  --secondary-color-alt: #b38a49;
+  --title-color: #111111;
+  --text-color: #212122;
+  --text-color-light: #313132;
+  --body-color: #f6f6f6;
+  --container-color: #e6e5e3;
+
+  /*========== Font and Typography ==========*/
+  --body-font: "Old Standard TT", serif;
+  --title-font: "Century Gothic Paneuropean", sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 400;
+  --font-semi-bold: 700;
+  --font-black: 800;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== Z Index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*Responsive typography*/
+@media screen and (min-width: 992px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+/*========== BASE ==========*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+/*========== REUSABLE CSS CLASSES ==========*/
+.section {
+  padding: 4.5rem 0 2rem;
+}
+
+.section__title {
+  font-family: var(--title-font);
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+  text-align: center;
+}
+
+/*========== LAYOUT ==========*/
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden; /*For animation*/
+}
+
+/*========== HEADER ==========*/
+
+/*========== NAV ==========*/
+
+/*Show Menu*/
+
+/*Change background header*/
+
+/*Change active link*/
+
+/*========== HOME ==========*/
+
+/*========== ABOUT ==========*/
+
+/*========== ACCOMODATIONS ==========*/
+
+/*========== DINING ==========*/
+
+/*========== FACILITIES ==========*/
+
+/*========== EXPERIENCES ==========*/
+
+/*========== OFFERS ==========*/
+
+/*========== FOOTER ==========*/
+
+/*========== SCROLL UP ==========*/
+
+/*========== SCROLL BAR ==========*/
+
+/*========== BREAKPOINTS ==========*/
+
+/*For small devices*/
+
+/*For medium devices*/
+
+/*For large devices*/
+
+/*For 2K and 4K devices*/
