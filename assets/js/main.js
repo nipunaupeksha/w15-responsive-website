@@ -29,6 +29,16 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*========== ACCOMMODATIONS SWIPER ==========*/
+let accommodationsSwiper = new Swiper('.accommodations-swiper',{
+    spaceBetween: 30,
+    loop: 'true',
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    }
+})
+
 /*========== CHANGE BACKGROUND HEADER ==========*/
 
 /*========== SCROLL SECTIONS ACTIVE LINK ==========*/
