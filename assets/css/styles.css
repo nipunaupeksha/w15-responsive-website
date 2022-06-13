@@ -28,6 +28,7 @@
   --smaller-font-size: 0.75rem;
 
   /*========== Font weight ==========*/
+  --font-normal: 350;
   --font-medium: 400;
   --font-semi-bold: 700;
   --font-black: 800;
@@ -82,7 +83,7 @@ h2,
 h3,
 h4 {
   color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+  font-weight:var(--font-normal) ;
 }
 
 ul {
@@ -250,8 +251,104 @@ button {
 }
 
 /*========== HOME ==========*/
+.home__content {
+  row-gap: 1rem;
+}
+
+.home__group {
+  display: grid;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.home__img {
+  height: 500px;
+  justify-self: center;
+}
+
+.home__subtitle {
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  text-transform: uppercase;
+  margin-bottom: var(--mb-1);
+}
+
+.home__title {
+  font-family: var(--title-font);
+  color: var(--first-color);
+  font-size: var(--biggest-font-size);
+  line-height: 109%;
+  margin-bottom: var(--mb-1);
+}
+
+.home__description {
+  margin-bottom: var(--mb-1);
+}
+
+.home__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*=============== BUTTONS ===============*/
+.button {
+  font-family: var(--title-font);
+  display: inline-block;
+  background-color: var(--body-color);
+  color: var(--first-color);
+  padding: 1rem 1.75rem;
+  border: 1px solid var(--first-color);
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+  color: var(--body-color);
+}
+
+.button__icon {
+  font-size: 1.25rem;
+}
+
+.button--link {
+  color: var(--first-color);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
 
 /*========== ABOUT ==========*/
+.aboutus__content{
+  row-gap: 1rem;
+}
+
+.aboutus__group{
+  display: grid;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.aboutus__img{
+  height: 500px;
+  justify-self: center;
+}
+
+.aboutus__subtitle{
+  font-size: var(--h1-font-size);
+  font-family: var(--title-font);
+  color: var(--first-color);
+  text-transform: uppercase;
+  margin-bottom: var(--mb-1);
+}
+
+.aboutus__description{
+  margin-bottom: var(--mb-1);
+}
 
 /*========== ACCOMODATIONS ==========*/
 
