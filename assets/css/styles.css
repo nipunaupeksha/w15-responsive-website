@@ -423,6 +423,15 @@ button {
 }
 
 /*========== DINING ==========*/
+.dining__description{
+  text-align: center;
+}
+
+.dining__img {
+  margin-top: var(--mb-1);
+  width: 350px;
+  justify-self: center;
+}
 
 /*========== FACILITIES ==========*/
 

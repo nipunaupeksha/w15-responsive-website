@@ -30,12 +30,30 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*========== ACCOMMODATIONS SWIPER ==========*/
-let accommodationsSwiper = new Swiper('.accommodations-swiper',{
+let accommodationsSwiper = new Swiper('.accommodations-swiper', {
     spaceBetween: 30,
-    loop: 'true',
+    loop: true,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+    }
+})
+
+/*========== DINING SWIPER ==========*/
+let diningSwiper = new Swiper('.dining-swiper', {
+    spaceBetween: 30,
+    loop: true,
+    effect: 'cube',
+    grabCursor: true,
+    cube: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
     }
 })
 

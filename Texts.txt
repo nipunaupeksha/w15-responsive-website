@@ -41,3 +41,9 @@ large private garden and a sumptuous living area in rich hues of cream and gold.
 
 All beautifully renovated spaces within the original stables of the W15 Hanthana. 
 Each suite looks out onto the exquisite Hanthana mountain range, promising dreamy views.
+
+.dining__description
+At W15 Hanthana, mealtimes are a highly personalized affair. We serve each meal, 
+from breakfast, lunch to dinner, and everything in between, with utmost attention 
+to detail. Whether you yearn for authentic Sri Lankan spread or your palate craves 
+a more worldly feast, our dishes are prepared with expert hands with the freshest produce. 
