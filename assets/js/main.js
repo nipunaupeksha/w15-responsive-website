@@ -49,10 +49,6 @@ let diningSwiper = new Swiper('.dining-swiper', {
     loop: true,
     effect: 'cube',
     grabCursor: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
     cube: {
         shadow: true,
         slideShadows: true,
