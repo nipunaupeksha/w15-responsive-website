@@ -47,3 +47,30 @@ At W15 Hanthana, mealtimes are a highly personalized affair. We serve each meal,
 from breakfast, lunch to dinner, and everything in between, with utmost attention 
 to detail. Whether you yearn for authentic Sri Lankan spread or your palate craves 
 a more worldly feast, our dishes are prepared with expert hands with the freshest produce. 
+
+.facilities__description
+A host of magnificent facilities are included as part of your W15 Hanthana experience. 
+We adopt a holistic approach to your stay here that focuses on your mind, body, soul and spirit. 
+Here at W15 Hanthana, the glorious outdoors blend seamlessly with our artfully restored bungalow 
+interior – a harmony we aim to replicate in our service to you. The peaceful surroundings at W15 
+Hanthana are truly soul-rejuvenating and we invite you to experience the wonder that is nature. 
+We have designed our spaces to offer facilities that enhance recreation and relaxation, oneness with
+ nature, and appreciation of music as well as those that promote work and play.
+
+.facilities__img-title
+Piano Room
+Infinity Pool
+Library
+
+.facilities__img-details
+Sitting quietly in the corner of one of our comfortable sitting areas, our beautiful 
+mahogany piano waits to be played by our guests. Brush up those musical skills on our 
+baby grand and let the tinkle of its notes drift over the country air. 
+
+Our infinity pool, sunken into a white-stone terrace, overlooks a panoramic vista of breathtaking 
+mountains in the distance. Its turquoise waters glistening iridescently in the Hanthana 
+sunshine will beckon you to swim. 
+
+W15 boasts a beautiful library, packed with a feast of books in a variety of genres. 
+In our library, a warm glow of ambient light, spills over onto comfy cushioned chairs creating an enticing atmosphere 
+for reading.

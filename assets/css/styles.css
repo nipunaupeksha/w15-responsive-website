@@ -423,7 +423,7 @@ button {
 }
 
 /*========== DINING ==========*/
-.dining__description{
+.dining__description {
   text-align: center;
 }
 
@@ -434,6 +434,46 @@ button {
 }
 
 /*========== FACILITIES ==========*/
+.facilities__description {
+  text-align: center;
+}
+
+.facilities__group{
+  margin-top: var(--mb-1);
+}
+
+.facilities__img {
+  justify-self: center;
+  height: 400px;
+  width: 100%;
+}
+
+.facilities__img-overlay {
+  position: absolute;
+  top: 540px;
+  background-color: rgba(253, 253, 253, 0.75);
+  height: 130px;
+  width: 100%;
+  display: grid;
+  padding: 0.5rem;
+  visibility: hidden;
+  transition: 0.3s;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.facilities__img:hover + .facilities__img-overlay {
+  visibility: visible;
+  transform: translateY(-254px);
+  transition: 0.3s;
+}
+
+.facilities__img-title {
+  font-family: var(--title-font);
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 
 /*========== EXPERIENCES ==========*/
 

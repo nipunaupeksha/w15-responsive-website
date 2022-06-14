@@ -32,6 +32,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*========== ACCOMMODATIONS SWIPER ==========*/
 let accommodationsSwiper = new Swiper('.accommodations-swiper', {
     spaceBetween: 30,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     loop: true,
     pagination: {
         el: '.swiper-pagination',
@@ -45,11 +49,40 @@ let diningSwiper = new Swiper('.dining-swiper', {
     loop: true,
     effect: 'cube',
     grabCursor: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     cube: {
         shadow: true,
         slideShadows: true,
         shadowOffset: 20,
         shadowScale: 0.94,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    }
+})
+
+/*========== FACILITIES SWIPER ==========*/
+let facilitiesSwiper = new Swiper('.facilities-swiper', {
+    spaceBetween: 30,
+    loop: true,
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 1,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    cube: {
+        rotate: 50,
+        stretch: 50,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
     },
     pagination: {
         el: '.swiper-pagination',
