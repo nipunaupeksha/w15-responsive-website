@@ -74,3 +74,22 @@ sunshine will beckon you to swim.
 W15 boasts a beautiful library, packed with a feast of books in a variety of genres. 
 In our library, a warm glow of ambient light, spills over onto comfy cushioned chairs creating an enticing atmosphere 
 for reading.
+
+.experience__description
+A spectrum of elegant adventures and enthralling encounters await you. W15 Hanthana and the mystical mountains 
+create the ideal moments you yearn for. No matter the need, we have the perfect bespoke experience for you.
+
+.experience__img-title
+Wildlife excursions at Hanthana
+Breathtaking encounters
+Mountain edge swing
+
+.experience__img-description
+Enjoy an exciting safari with a tour guide in this richly populated environmental zone, protected
+for its bodiversity in animals, flora and fauna.
+
+Arguably boasting some of the world's most breathtaking scenary and mountain views, the trails around W15 Hanthana 
+make for some truly peaceful and inspiring nature walks.
+
+Feel the breeze of Hanthana while swinging at an edge of a mountain. 
+

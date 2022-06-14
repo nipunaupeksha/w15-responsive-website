@@ -476,8 +476,23 @@ button {
 }
 
 /*========== EXPERIENCES ==========*/
+.experience__content{
+  display: grid;
+  row-gap: .75rem;
+}
+
+.experience__img{
+  margin-top: var(--mb-1);
+}
+
+.experience__img-title{
+  font-family: var(--title-font);
+  color: var(--first-color);
+  margin: .5rem 0;
+}
 
 /*========== OFFERS ==========*/
+
 
 /*========== FOOTER ==========*/
 
