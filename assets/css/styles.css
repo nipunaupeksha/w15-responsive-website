@@ -438,7 +438,7 @@ button {
   text-align: center;
 }
 
-.facilities__group{
+.facilities__group {
   margin-top: var(--mb-1);
 }
 
@@ -476,23 +476,22 @@ button {
 }
 
 /*========== EXPERIENCES ==========*/
-.experience__content{
+.experience__content {
   display: grid;
-  row-gap: .75rem;
+  row-gap: 0.75rem;
 }
 
-.experience__img{
+.experience__img {
   margin-top: var(--mb-1);
 }
 
-.experience__img-title{
-  font-family: var(--title-font);
+.experience__img-title {
+  font-size: var(--h2-font-size);
   color: var(--first-color);
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 /*========== OFFERS ==========*/
-
 
 /*========== FOOTER ==========*/
 
