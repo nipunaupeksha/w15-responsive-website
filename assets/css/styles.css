@@ -492,12 +492,143 @@ button {
 }
 
 /*========== OFFERS ==========*/
+.offers__description{
+  text-align: center;
+  margin-bottom: var(--mb-1);
+}
+
+.offers__email{
+  display: grid;
+  grid-template-columns: 200px 150px;
+}
+
+.email__text{
+  padding-left: 1rem;
+}
+
+.email__text{
+  line-height: 2.5rem;
+  font-size: var(--normal-font-size);
+  border-radius: 1px solid var(--first-color);
+  margin-right: 1rem;
+}
 
 /*========== FOOTER ==========*/
+.footer{
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__container{
+  row-gap: 2rem;
+}
+
+.footer__logo{
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  font-family: var(--title-font);
+}
+
+.footer__logo-img{
+  width: 20px;
+}
+
+.footer__description{
+  font-family: var(--title-font);
+  margin-bottom: var(--mb-2-5);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: .75rem;
+}
+
+.footer__social-link{
+  display: inline-flex;
+  background: var(--container-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  color: var(--title-color);
+  font-size: 1rem;
+}
+
+.footer__social-link:hover{
+  background: var(--body-color);
+}
+
+.footer__title{
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.footer__links{
+  font-family: var(--title-font);
+  display: grid;
+  row-gap: .35rem;
+}
+
+.footer__link{
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__link:hover{
+  color: var(--title-color);
+}
+
+.footer__copy{
+  font-family: var(--title-font);
+  display: block;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  margin-top: 4.5rem;
+}
 
 /*========== SCROLL UP ==========*/
+.scrollup{
+  position: fixed;
+  background: var(--first-color);
+  right: 1rem;
+  bottom: -20%;
+  display: inline-flex;
+  padding: .3rem;
+  border-radius: .25rem;
+  z-index: var(--z-tooltip);
+  opacity: .8;
+  transition: .4s;
+}
+
+.scrollup__icon{
+  font-size: 1.25rem;
+  color: var(--container-color);
+}
+
+.scrollup:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Show Scroll Up*/
+.show-scroll{
+  bottom: 3rem;
+}
 
 /*========== SCROLL BAR ==========*/
+::-webkit-scrollbar{
+  width: 0.6rem;
+  background: #413e3e;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #272525;
+  border-radius: .5rem;
+}
 
 /*========== BREAKPOINTS ==========*/
 

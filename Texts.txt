@@ -93,3 +93,6 @@ make for some truly peaceful and inspiring nature walks.
 
 Feel the breeze of Hanthana while swinging at an edge of a mountain. 
 
+.offers__description
+Subscribe to get latest offers
+
